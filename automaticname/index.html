@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate using Typed.js</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <div class="center">
+        <span class="write"></span>
+    </div>
+    <script type="text/javascript" src="typed.js"></script>
+    <script type="text/javascript">
+    var typed = new Typed('.write', {
+        strings: ['Hi everyone', 'This is the code for animated text writing','If you find this useful do give me thumbs up','thank you'],
+        typeSpeed: 60,
+        backSpeed: 60,
+        loop: true,
+});
+    </script>
+</body>
+</html>

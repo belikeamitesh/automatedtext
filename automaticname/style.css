@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("2.jpg");
+    background-size: cover;
+}
+.center{
+    position: absolute;
+    top:50%;
+    left:0;
+    transform: translate(0,-50%);
+    text-align: center;
+    width: 100%;
+}
+.center span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
